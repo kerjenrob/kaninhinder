@@ -1,0 +1,73 @@
+
+h1 {
+    background color: white;
+    color: black;
+    font-size: 45px;
+    font-weight: 100;
+    font-style: oblique; 
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid black;
+
+    }
+
+nav {
+    height: 200px;
+    width: 200 px;
+    padding: 20px;
+    border: 1px solid black; <!--How do I get the boarder to be a smaller rectangular?-->
+    margin: 1 px;
+
+}
+
+p {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    }
+
+div {
+    color: black;
+    background-color:white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px;
+
+    }
+
+div:hover {
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-size: 30px;
+    }
+
+body {
+    background-image: url(../images/rabbit-family.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+    }
+
+.background-image{
+    opacity: 0,5; <!--How do I get a softer backgroundimage? -->
+}
+
+img{
+    border-width: 4px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 10px;
+
+    }
